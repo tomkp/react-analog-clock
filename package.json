@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
-    "deploy": "npm run build && surge dist react-analog-clock.surge.sh",
-    "lint": "eslint src"
+    "deploy": "npm run build && surge demo react-analog-clock.surge.sh"
   },
   "keywords": [],
   "author": "tom@tomkp.com",
