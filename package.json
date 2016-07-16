@@ -1,15 +1,23 @@
 {
   "name": "react-analog-clock",
   "version": "1.0.0",
+  "keywords": [],
+  "author": "tom@tomkp.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomkp/react-analog-clock"
+  },
+  "bugs": {
+    "url": "https://github.com/tomkp/react-analog-clock"
+  },
+  "homepage": "https://github.com/tomkp/react-analog-clock",
   "scripts": {
     "start": "node server.js",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
     "deploy": "npm run build && surge demo react-analog-clock.surge.sh",
     "lint": "eslint src"
   },
-  "keywords": [],
-  "author": "tom@tomkp.com",
-  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.9.1",
     "color": "^0.11.3",
